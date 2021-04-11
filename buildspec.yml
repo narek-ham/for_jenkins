@@ -1,0 +1,14 @@
+version: 0.2
+
+
+env:
+  shell: powershell.exe
+
+phases:
+  build:
+    on-failure: ABORT 
+    commands:
+      - New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
+artifacts:
+  files:
+      - ./a.out
