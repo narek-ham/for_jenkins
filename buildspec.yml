@@ -11,4 +11,5 @@ phases:
       - New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
 artifacts:
   files:
-      - c:\testfile1.txt
+    - '**/*'
+  base-directory: 'test_pipeline'
