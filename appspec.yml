@@ -1,0 +1,9 @@
+version: 0.0
+os: windows
+files:
+  - source: \testfile1.txt
+    destination: c:\
+hooks:
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 900
