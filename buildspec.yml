@@ -11,4 +11,4 @@ phases:
       - New-Item -Path . -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
 artifacts:
   files:
-      - ./a.out
+      - c:\testfile1.txt
