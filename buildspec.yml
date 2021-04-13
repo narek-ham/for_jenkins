@@ -13,3 +13,4 @@ artifacts:
   files:
     - 'testfile1.txt'
     - 'appspec.yml'
+    - 'before-install.bat'
