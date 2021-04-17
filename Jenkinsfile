@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('pre-build') {
       steps {
-        echo 'hello'
+
+        echo 'hello from blue ocean'
       }
     }
 
